@@ -13,7 +13,7 @@ phases:
       - mvn package
 
 artifacts:
-  base-directory: web-project/target
+  base-directory: backup/ec2-user/web-project/target
   files:
     - '*.jar'
 
